@@ -1,0 +1,12 @@
+{
+  "title": "ShardCloud Template — Webhook Listener JavaScript",
+  "ref": "main",
+  "items": [
+    { "file": "README.md", "label": "Visão Geral" },
+    { "file": "01-introducao.md", "label": "Introdução" },
+    { "file": "02-configuracao.md", "label": "Configuração" },
+    { "file": "03-rodando.md", "label": "Executando" },
+    { "file": "04-deploy.md", "label": "Deploy" },
+    { "file": "05-exemplos-praticos.md", "label": "Exemplos Práticos" }
+  ]
+}
