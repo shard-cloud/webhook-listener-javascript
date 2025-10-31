@@ -1,5 +1,3 @@
-# Introdução ao Webhook Listener
-
 ## 🤔 O que são Webhooks?
 
 **Webhooks** são uma forma de comunicação entre aplicações onde uma aplicação envia dados para outra aplicação em tempo real quando algo acontece. É como um "callback" ou "notificação" automática.

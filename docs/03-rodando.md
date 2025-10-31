@@ -1,5 +1,3 @@
-# Executando o Webhook Listener
-
 ## 🚀 Início Rápido
 
 ### 1. Instalação das Dependências

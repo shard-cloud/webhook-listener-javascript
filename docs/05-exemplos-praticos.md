@@ -1,5 +1,3 @@
-# Exemplos Práticos de Uso
-
 ## 🚀 Guia Rápido de Uso
 
 Este arquivo contém exemplos práticos de como usar o Webhook Listener em diferentes cenários.

@@ -1,5 +1,3 @@
-# Configuração do Webhook Listener
-
 ## 🚀 Configuração Rápida
 
 ### 1. Variáveis de Ambiente
