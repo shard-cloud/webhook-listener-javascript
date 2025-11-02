@@ -36,19 +36,13 @@ cp env.example .env
 # DATABASE=postgresql://user:password@localhost:5432/webhook_db
 ```
 
-### 3. Configuração do Banco de Dados
+### 3. Iniciar o Servidor
 ```bash
-# Aplique as migrações (cria as tabelas)
-npm run migrate
-
-# Popule com dados de exemplo
-npm run seed
-```
-
-### 4. Iniciar o Servidor
-```bash
-# Modo desenvolvimento
+# Modo desenvolvimento (migrations automáticas ✨)
 npm run dev
+
+# (Opcional) Popular com dados de exemplo
+npm run seed
 
 # O servidor estará rodando em http://localhost:80
 ```
@@ -143,11 +137,11 @@ curl http://localhost:80/health
 
 | Comando | Descrição |
 |---------|-----------|
-| `npm run dev` | Inicia o servidor em modo desenvolvimento |
-| `npm run start` | Inicia o servidor em modo produção |
+| `npm run dev` | Inicia o servidor em modo desenvolvimento (aplica migrations automaticamente) |
+| `npm run start` | Inicia o servidor em modo produção (aplica migrations automaticamente) |
 | `npm run test` | Executa os testes automatizados |
-| `npm run migrate` | Aplica migrações do banco de dados |
-| `npm run seed` | Popula o banco com dados de exemplo |
+| `npm run migrate` | Aplica migrações do banco de dados manualmente (se necessário) |
+| `npm run seed` | Popula o banco com dados de exemplo (opcional) |
 | `npm run lint` | Verifica o código com ESLint |
 | `npm run format` | Formata o código com Prettier |
 

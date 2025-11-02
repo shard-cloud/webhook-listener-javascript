@@ -1,0 +1,8 @@
+DISPLAY_NAME=Webhook Listener
+MAIN=src/index.js
+MEMORY=1024
+VERSION=recommended
+SUBDOMAIN=webhook-listener
+CUSTOM_COMMAND=npm run start
+DESCRIPTION=Sistema completo para receber, armazenar e gerenciar webhooks com API e dashboard
+
