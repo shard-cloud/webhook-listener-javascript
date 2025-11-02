@@ -1,3 +1,7 @@
+## 📖 O que é este template?
+
+Este é um template **Webhook Listener** pronto para produção, desenvolvido em Node.js (JavaScript), que permite receber, registrar e consultar eventos de qualquer serviço que utilize webhooks (como GitHub, Stripe, Slack e outros).
+
 ## 🤔 O que são Webhooks?
 
 **Webhooks** são uma forma de comunicação entre aplicações onde uma aplicação envia dados para outra aplicação em tempo real quando algo acontece. É como um "callback" ou "notificação" automática.
